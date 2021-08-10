@@ -21,7 +21,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -32,6 +31,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.DeviceSimulator.Editor.dll:
+    - UnityEditor.DeviceSimulation.DeviceInfoAsset
+    - UnityEditor.DeviceSimulation.SimulatorWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -42,7 +44,9 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
+    - TestRunner.Callbacks.WindowResultUpdaterDataHolder
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
@@ -1426,4 +1430,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main Manu.unity
   - Assets/Scenes/Core Game.unity
   - Assets/Scenes/End Scene.unity
-  playerPath: D:/Unity Projects/Builds/Cowboy Arena 10.apk
+  playerPath: D:/Unity Projects/Builds/Cowboy Arena 11.apk

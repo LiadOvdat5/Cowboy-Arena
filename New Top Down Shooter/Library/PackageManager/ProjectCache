@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637623057554958436
-    m_Hash: 3719892548
+      ticks: 637630714982957589
+    m_Hash: 2934206364
   m_LockFileStatus:
     m_FilePath: D:/Unity Projects/GitHub/Cowboy-Arena/New Top Down Shooter/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637623057576392740
-    m_Hash: 1300057785
+      ticks: 637630714983790253
+    m_Hash: 3385675856
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -101,6 +101,7 @@ m_PackageAssets:
         - 6.0.3
         - 6.0.4
         - 7.0.0-pre.2
+        - 7.0.0-pre.3
         compatible:
         - 5.0.4
         - 5.0.5
@@ -294,6 +295,7 @@ m_PackageAssets:
         - 5.0.4
         - 6.0.0-pre.2
         - 6.0.0-pre.3
+        - 6.0.0-pre.4
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -650,6 +652,7 @@ m_PackageAssets:
         - 2.7.2
         - 2.7.3
         - 2.7.4
+        - 2.7.5
         - 2.8.0-exp.1
         - 2.8.0-exp.2
         - 2.8.0-pre.1
@@ -673,6 +676,7 @@ m_PackageAssets:
         - 2.7.2
         - 2.7.3
         - 2.7.4
+        - 2.7.5
         - 2.8.0-exp.1
         - 2.8.0-exp.2
         - 2.8.0-pre.1
@@ -824,6 +828,83 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
         revision: fa825106f349f996acff22f718845eab46ca2d7c
+        path: 
+    - packageId: com.unity.device-simulator@3.0.1-preview
+      testable: 0
+      isDirectDependency: 1
+      version: 3.0.1-preview
+      source: 1
+      resolvedPath: D:\Unity Projects\GitHub\Cowboy-Arena\New Top Down Shooter\Library\PackageCache\com.unity.device-simulator@3.0.1-preview
+      assetPath: Packages/com.unity.device-simulator
+      name: com.unity.device-simulator
+      displayName: Device Simulator
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Device Simulator is an alternative to the traditional Unity editor
+        Game window. By simulating Screen and SystemInfo class behavior, Device Simulator
+        aims to give an accurate picture of how an app will look on a device.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview
+        - 1.1.0-preview
+        - 1.2.0-preview
+        - 1.3.0-preview
+        - 2.0.0-preview
+        - 2.1.0-preview
+        - 2.1.1-preview
+        - 2.2.0-preview
+        - 2.2.1-preview
+        - 2.2.2-preview
+        - 2.2.3-preview
+        - 2.2.4-preview
+        - 3.0.0-preview
+        - 3.0.1-preview
+        compatible:
+        - 1.0.0-preview
+        - 1.1.0-preview
+        - 1.2.0-preview
+        - 1.3.0-preview
+        - 2.0.0-preview
+        - 2.1.0-preview
+        - 2.1.1-preview
+        - 2.2.0-preview
+        - 2.2.1-preview
+        - 2.2.2-preview
+        - 2.2.3-preview
+        - 2.2.4-preview
+        - 3.0.0-preview
+        - 3.0.1-preview
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - Device
+      - Simulator
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637587700440000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.device-simulator.git
+        revision: 6be231118d14eeb4afe926783124db4964dfe927
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -3473,6 +3554,7 @@ m_PackageAssets:
         - 5.0.0
         - 6.0.0-pre.2
         - 6.0.0-pre.3
+        - 6.0.0-pre.4
         compatible:
         - 4.0.2
         - 4.0.3
